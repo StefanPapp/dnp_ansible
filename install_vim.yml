@@ -1,0 +1,8 @@
+---
+- name: install vim
+  hosts: localhost
+  tasks:
+    - name: install a package
+      package:
+        name: vim
+        state: installed
